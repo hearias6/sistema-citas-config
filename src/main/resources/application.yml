@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: backend-citas-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: /home/hans/Documentos/Proyectos/Backend/sistema-citas-config-perfiles
